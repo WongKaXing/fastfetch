@@ -4,7 +4,7 @@
     "logo": {
         "type": "kitty-direct",
         "source": "/Users/soc/.config/fastfetch/logo.png",
-        "height": 16,
+        "height": 15,
         "width": 36,
         "padding": {
             "top": 2,
@@ -107,12 +107,12 @@
             "showMtu": true,
             "format": ":  {ifname}: {ipv4}"
         },
-        {
-            "type": "publicip",
-            "key": "    {$12}{icon} Public IPv4",
-            "ipv6": false,
-            "format": ":  {ip}"
-        },
+        // {
+        //     "type": "publicip",
+        //     "key": "    {$12}{icon} Public IPv4",
+        //     "ipv6": false,
+        //     "format": ":  {ip}"
+        // },
         {
             "type": "uptime",
             "key": "    {$13}{icon} Uptime",
